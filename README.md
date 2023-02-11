@@ -57,47 +57,57 @@ refactor:description
 ### Tasks
 
 - **_1 - create website header_**
+- ![image](https://user-images.githubusercontent.com/106037619/218264270-7d220212-a502-4dbe-ae04-7aad8fdbb873.png)
+- 
 ![image](https://user-images.githubusercontent.com/106037619/218261980-736643ba-f85c-47b0-a56f-382045e523a7.png)
 
-1.1 - create navbar component 
-![image](https://user-images.githubusercontent.com/106037619/218262099-2ce501ba-f41a-406d-af6b-1fdcb85e82da.png)
+- 1.1 - create navbar component 
+- ![image](https://user-images.githubusercontent.com/106037619/218264383-9db4a1e8-f575-4162-affa-bc38db1e804e.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218262099-2ce501ba-f41a-406d-af6b-1fdcb85e82da.png)
 
-1.2 - create cart component -----------------------------------------------------------------------------------
-![image](https://user-images.githubusercontent.com/106037619/218262558-5e1e7986-a154-46dd-a3b7-da1b92ead47d.png)
-
+- 1.2 - create cart component 
+- ![image](https://user-images.githubusercontent.com/106037619/218262558-5e1e7986-a154-46dd-a3b7-da1b92ead47d.png)
 
 - **_2 - create footer component_**
-
-![image](https://user-images.githubusercontent.com/106037619/218262149-37b397f8-d57c-4e4a-950a-b10475a2df0e.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218264449-0e527abf-135f-408e-89dc-2753dff6a12b.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218262149-37b397f8-d57c-4e4a-950a-b10475a2df0e.png)
 
 - **_3 - create product card_**
-
-![image](https://user-images.githubusercontent.com/106037619/218261911-08ddc350-e7cc-4c42-828f-5ac565b4093f.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218264465-a4bfae07-bef1-4d54-9f59-96339c5ca5e8.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218261911-08ddc350-e7cc-4c42-828f-5ac565b4093f.png)
 
 - **_4 - create product page_**
-
-![image](https://user-images.githubusercontent.com/106037619/218262394-39fe3ff5-b91b-40ba-a01e-ec0b1053e257.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218265150-23a26c1c-1e8e-453f-bc78-30a9c56957b3.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218262394-39fe3ff5-b91b-40ba-a01e-ec0b1053e257.png)
 
 - **_4.1 - create zoom and image component_**
 
-![image](https://user-images.githubusercontent.com/106037619/218262450-a95601bf-29b8-4e1b-9861-92533b158071.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218262450-a95601bf-29b8-4e1b-9861-92533b158071.png)
 
 - **_5 - create checkout page_**
+- ![image](https://user-images.githubusercontent.com/106037619/218265549-b3c983ff-16db-4c95-8a73-b5ad3a5d31ed.png)
 
-![image](https://user-images.githubusercontent.com/106037619/218262849-f91d7ff3-eed9-4f98-9ab0-d17564413a07.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218265464-7aa35fb0-d20e-444b-b9fa-02fa604a2dc5.png)
 
-------------------------------------------------------------------------------------------
+- ![image](https://user-images.githubusercontent.com/106037619/218262849-f91d7ff3-eed9-4f98-9ab0-d17564413a07.png)
 
-![image](https://user-images.githubusercontent.com/106037619/218262711-1e476922-dfd1-40cb-b890-2f7bcd44f1c8.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218262711-1e476922-dfd1-40cb-b890-2f7bcd44f1c8.png)
 
 - **_5.1 - create checkout product card_**
-![image](https://user-images.githubusercontent.com/106037619/218262761-26c3eb25-bb76-4419-a0ac-baa154a431e3.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218265498-e61d5d7a-75f1-4272-ba66-bef9609229a2.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218262761-26c3eb25-bb76-4419-a0ac-baa154a431e3.png)
 
 - **_6 - create filter page_**
-![image](https://user-images.githubusercontent.com/106037619/218263051-ba9877f6-b5b4-482d-b4a7-ab7e1067df5a.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218265640-1323cbf3-3b59-49d8-9c02-cab8d296c5f1.png)
+
+- ![image](https://user-images.githubusercontent.com/106037619/218263051-ba9877f6-b5b4-482d-b4a7-ab7e1067df5a.png)
 
 - **_6.1 - create card that shows the current filter_**
-![image](https://user-images.githubusercontent.com/106037619/218263107-df2f297c-6f7b-4ca0-80fe-39dddc4d7f97.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218263107-df2f297c-6f7b-4ca0-80fe-39dddc4d7f97.png)
 
-- **_6.2 - create component that filters by price_** -----------------------------------------------------------------------------------
-![image](https://user-images.githubusercontent.com/106037619/218263157-fcc2e3ed-a194-4736-ac63-ff7c364cf001.png)
+- **_6.2 - create component that filters by price_** 
+- ![image](https://user-images.githubusercontent.com/106037619/218263157-fcc2e3ed-a194-4736-ac63-ff7c364cf001.png)
+
+- **_7 - create main page_** 
+- ![image](https://user-images.githubusercontent.com/106037619/218265715-aa42d78c-0630-4fa5-8132-cb823e4f2c39.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218265736-a8153af6-75ee-47ff-91af-11b779bb6b89.png)
