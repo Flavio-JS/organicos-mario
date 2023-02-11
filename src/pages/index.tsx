@@ -10,35 +10,9 @@ const HomePage: NextPage = () => {
 
   return (
     <S.IndexWrapper>
-      <div
-        style={{
-          width: "100%",
-          border: "1px solid black",
-          padding: "10px 5px",
-        }}
-      >
-        <p>Desktop</p>
-        <br />
-        <NavBarDesktop />
-      </div>
-      <br />
-      <div
-        style={{
-          width: "375px",
-          height: "667px",
-          border: "1px solid black",
-          padding: "10px 5px",
-          backgroundColor: "#0f6e3f",
-        }}
-      >
-        <p>Mobile</p>
-        <br />
-        <NavBarMobile
-          isOpen={isMenuMobileOpen}
-          setIsOpen={setIsMenuMobileOpen}
-        />
-      </div>
-      <br />
+      <NavBarDesktop />
+
+      <NavBarMobile isOpen={isMenuMobileOpen} setIsOpen={setIsMenuMobileOpen} />
     </S.IndexWrapper>
   );
 };

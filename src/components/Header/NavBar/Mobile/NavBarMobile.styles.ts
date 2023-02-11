@@ -3,11 +3,13 @@ import styled, { css } from "styled-components";
 
 export const NavBarMobileWrapper = styled.div`
   ${({ theme }) => css`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    height: fit-content;
+    width: fit-content;
+    background-color: ${theme.colors.darkGreen}; //só para ver
+
+    @media (min-width: ${theme.breakpoints.md}) {
+      display: none;
+    }
   `}
 `;
 
@@ -25,17 +27,35 @@ interface INavBarMobileOpenMenuProps {
 
 export const NavBarMobileOpenMenu = styled.div<INavBarMobileOpenMenuProps>`
   ${({ theme, isOpen }) => css`
-    position: absolute;
+    position: fixed;
     right: 0;
+    top: 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    width: ${isOpen ? "300px" : "0"};
-    overflow: hidden;
-    transition: width 1s;
+    justify-content: end;
+    align-items: flex-end;
+    width: 100%;
+    z-index: 1;
+    transform: ${isOpen ? "translateX(0)" : "translateX(100%)"};
+    transition: transform 450ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  `}
+`;
+
+export const NavBarMobileOpenMenuUl = styled.ul`
+  ${({ theme }) => css`
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     background-color: ${theme.colors.darkGreen};
 
     li {
       list-style-type: none;
+      color: #fafafa;
+      font-size: 18px;
+      font-weight: ${theme.font.bold};
+      padding: 10px 20px;
     }
   `}
 `;

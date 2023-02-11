@@ -10,14 +10,17 @@ function NavBarMobile({ isOpen, setIsOpen }: INavBarMobileProps) {
   return (
     <S.NavBarMobileWrapper>
       <S.NavBarMobileMenuIcon onClick={() => setIsOpen(!isOpen)} />
-      <S.NavBarMobileOpenMenu isOpen={isOpen}>
-        <ul>
-          <li>Categoria 1</li>
-          <li>Categoria 2</li>
-          <li>Categoria 3</li>
-          <li>Categoria 4</li>
-          <li>Categoria 5</li>
-        </ul>
+      <S.NavBarMobileOpenMenu
+        isOpen={isOpen}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <S.NavBarMobileOpenMenuUl>
+          <li>CATEGORIA 1</li>
+          <li>CATEGORIA 2</li>
+          <li>CATEGORIA 3</li>
+          <li>CATEGORIA 4</li>
+          <li>CATEGORIA 5</li>
+        </S.NavBarMobileOpenMenuUl>
       </S.NavBarMobileOpenMenu>
     </S.NavBarMobileWrapper>
   );
