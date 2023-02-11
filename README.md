@@ -54,18 +54,21 @@ ci:description
 refactor:description
 ```
 
+### Icons
+
+https://icons8.com/icon/set/popular/ios-filled
+
 ### Tasks
 
 - **_1 - create website header_**
 - ![image](https://user-images.githubusercontent.com/106037619/218264270-7d220212-a502-4dbe-ae04-7aad8fdbb873.png)
-- 
-![image](https://user-images.githubusercontent.com/106037619/218261980-736643ba-f85c-47b0-a56f-382045e523a7.png)
+- ![image](https://user-images.githubusercontent.com/106037619/218261980-736643ba-f85c-47b0-a56f-382045e523a7.png)
 
-- 1.1 - create navbar component 
+- 1.1 - create navbar component
 - ![image](https://user-images.githubusercontent.com/106037619/218264383-9db4a1e8-f575-4162-affa-bc38db1e804e.png)
 - ![image](https://user-images.githubusercontent.com/106037619/218262099-2ce501ba-f41a-406d-af6b-1fdcb85e82da.png)
 
-- 1.2 - create cart component 
+- 1.2 - create cart component
 - ![image](https://user-images.githubusercontent.com/106037619/218262558-5e1e7986-a154-46dd-a3b7-da1b92ead47d.png)
 
 - **_2 - create footer component_**
@@ -105,9 +108,9 @@ refactor:description
 - **_6.1 - create card that shows the current filter_**
 - ![image](https://user-images.githubusercontent.com/106037619/218263107-df2f297c-6f7b-4ca0-80fe-39dddc4d7f97.png)
 
-- **_6.2 - create component that filters by price_** 
+- **_6.2 - create component that filters by price_**
 - ![image](https://user-images.githubusercontent.com/106037619/218263157-fcc2e3ed-a194-4736-ac63-ff7c364cf001.png)
 
-- **_7 - create main page_** 
+- **_7 - create main page_**
 - ![image](https://user-images.githubusercontent.com/106037619/218265715-aa42d78c-0630-4fa5-8132-cb823e4f2c39.png)
 - ![image](https://user-images.githubusercontent.com/106037619/218265736-a8153af6-75ee-47ff-91af-11b779bb6b89.png)
