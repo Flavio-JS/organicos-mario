@@ -1,5 +1,5 @@
+import HeaderMobile from "@/components/Header/HeaderMobile";
 import NavBarDesktop from "@/components/Header/NavBar/Desktop/NavBarDesktop";
-import NavBarMobile from "@/components/Header/NavBar/Mobile/NavBarMobile";
 
 import { NextPage } from "next";
 import * as S from "./styles";
@@ -28,7 +28,7 @@ const HomePage: NextPage = () => {
       >
         <p>Mobile</p>
         <br />
-        <NavBarMobile />
+        <HeaderMobile />
       </div>
       <br />
     </S.IndexWrapper>
