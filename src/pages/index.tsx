@@ -1,10 +1,11 @@
 import { NextPage } from "next";
+import * as S from "./styles";
 
 const HomePage: NextPage = () => {
   return (
-    <div>
+    <S.IndexWrapper>
       <p>LOGIN PAGE</p>
-    </div>
+    </S.IndexWrapper>
   );
 };
 
