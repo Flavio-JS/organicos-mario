@@ -1,10 +1,6 @@
 ### Branch Pattern
 
-Here we will explain how the project branches are divided into core branches(which should not have a branch name change), for example:
-
 - **_Development:_** Regarding the development environment
-- **_Homologation:_** Regarding the homologation environment
-- **_Production:_** Regarding the production environment
 
 And when creating a branch for a feature development, please follow this name base:\
 There will be two types of branch naming
