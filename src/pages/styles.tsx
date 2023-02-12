@@ -8,7 +8,7 @@ export const IndexWrapper = styled.div`
     height: 100vh;
 
     @media (min-width: ${theme.breakpoints.md}) {
-      padding: 0 10%;
+      padding: 0 5%;
     }
   `}
 `;
